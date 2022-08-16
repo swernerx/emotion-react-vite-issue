@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "src/index",
   "peerDependencies": {
     "@emotion/react": "11.x",
     "@emotion/styled": "11.x"
@@ -13,5 +14,8 @@
     "@emotion/styled": "^11.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@mui/material": "^5.10.0"
   }
 }

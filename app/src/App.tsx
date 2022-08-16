@@ -3,6 +3,7 @@ import { css } from '@emotion/react'
 import { useSnackbar } from 'notistack';
 
 import './App.css'
+import { Button } from 'uikit';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
       }`}>
         Click on the Vite and React logos to learn more
       </p>
+      <Button/>
     </div>
   )
 }
