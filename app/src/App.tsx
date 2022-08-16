@@ -1,35 +1,16 @@
-import { useState } from 'react'
 import { css } from '@emotion/react'
-import { useSnackbar } from 'notistack';
-
-import './App.css'
 import { Button } from 'uikit';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const { enqueueSnackbar, closeSnackbar } = useSnackbar();
-
   return (
-    <div>
+    <div css={css`
+      font-family: Helvetica, sans-serif;
+      width: 100vw;
+      margin: 0 auto;
+      text-align: center;
+    `}>
       <h1>Vite + React</h1>
-      <div css={css`
-        padding: 2em;
-      `}>
-        <button onClick={() => {
-          setCount((count) => count + 1)
-          enqueueSnackbar(`Count updated to: ${count + 1}`)
-        }}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p css={css`
-        color: #999;
-      }`}>
-        Click on the Vite and React logos to learn more
-      </p>
+      <p>Open the console to check for the warning message: <q>You are loading @emotion/react when it is already loaded.</q></p>
       <Button/>
     </div>
   )

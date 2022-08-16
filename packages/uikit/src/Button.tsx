@@ -1,7 +1,5 @@
-import { css } from '@emotion/react'
+import { Button as MuiButton } from "@mui/material"
 
 export function Button() {
-  return <button css={css`
-    color: red;
-  `}>Shared Button</button>
+  return <MuiButton variant="outlined">Outlined</MuiButton>
 }
