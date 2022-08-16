@@ -9,7 +9,7 @@ emotion-react.browser.esm.js:398 You are loading @emotion/react when it is alrea
 It seems that both:
 
 1. `emotion-react.cjs.dev.js`
-2. `emotion-react.esm.js`
+2. `emotion-react.browser.esm.js`
 
 are included into the browser bundles.
 
