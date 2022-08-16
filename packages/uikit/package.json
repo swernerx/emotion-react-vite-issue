@@ -1,0 +1,14 @@
+{
+  "name": "uikit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "peerDependencies": {
+    "@emotion/react": "11.x",
+    "@emotion/styled": "11.x"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0"
+  }
+}
